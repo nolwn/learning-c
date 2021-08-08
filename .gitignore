@@ -1,0 +1,11 @@
+# Code editor junk
+.vscode
+
+# OS junk
+.DS_Store
+
+# compiler/make junk
+*.dSYM
+*.out
+obj/*
+bin/*

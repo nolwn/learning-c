@@ -3,7 +3,7 @@
 
 #define ADD '+'
 #define SUB '-'
-#define MUL '*'
+#define MUL 'x'
 #define DIV '/'
 #define NUM '0'
 

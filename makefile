@@ -21,10 +21,10 @@ $(BIN_DIRS):
 	$(MKDIR) $@
 
 $(CALC_OBJS): $(CALC_BIN)/%.o: $(CALC_SRC)/%.c
-	$(CC) -c $^ -o $@
+	$(CC) -c $(CFLAGS) $^ -o $@
 
 $(LIB_OBJS): $(LIB_BIN)/%.o: $(LIB_SRC)/%.c
-	$(CC) -c $^ -o $@
+	$(CC) -c $(CFLAGS) $^ -o $@
 
 clean:
 	rm -fr $(BIN_DIRS)

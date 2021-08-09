@@ -16,7 +16,7 @@ Common functions I'm writing for these projects. Although the standard library h
 
 The calculator is a Reverse Polish int calculator (as in, it only operates on integers). It could easily be modified to add floats.
 
-To add two numbers, for instance 5 and 9, run `calculator 5 9 +`. Multiplication, division and subtractions are also supported by changing the operator to `x`, `/`, or `-`, respectively. To subtract two numbers and then multiply the result, for instance 134 - 34 * 3, run `calculator 134 34 3 - *`. For more about the weird glory that is Reverse Polish notation, check out the wikipedia page: https://en.wikipedia.org/wiki/Reverse_Polish_notation.
+To add two numbers, for instance 5 and 9, run `calculator 5 9 +`. Multiplication, division and subtractions are also supported by changing the operator to `x`, `/`, or `-`, respectively. To subtract two numbers and then multiply the result, for instance 134 - 34 * 3, run `calculator 3 134 34 - x`. For more about the weird glory that is Reverse Polish notation, check out the wikipedia page: https://en.wikipedia.org/wiki/Reverse_Polish_notation.
 
 Note: I wanted multiplication to be `*` but that isn't as easy to pass as an argument. You would have to either pass it as `"*"` or `\*` which isn't as nice. So `x` it is!
 
